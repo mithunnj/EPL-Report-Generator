@@ -1,0 +1,5 @@
+- Get a list of all the games for the day
+- Return information about each matchup
+
+Notes:
+- Using the API-FOOTBALL tool: https://rapidapi.com/api-sports/api/api-football/endpoints
