@@ -105,13 +105,10 @@ def past_head2head(fixture_info):
 
         lineups.append(API(lineup_url)['api']['lineUps'])
         player_stats.append(API(player_stats_url)['api']['players'])
-
-        print(player_stats)
-        sys.exit()
-
+    
     # Return a dict containing the historical information
     info = {
-        'matchup' : '{} - {}'.format(home_team_name, away_team_name),
+        'matchup' : '{}-{}'.format(home_team_name, away_team_name),
         'lineups': lineups,
         'player_stats': player_stats
     }
