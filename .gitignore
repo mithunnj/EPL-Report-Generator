@@ -1,4 +1,5 @@
 authentication
 notes
 __pycache__
-./api-result
+api-result/
+
